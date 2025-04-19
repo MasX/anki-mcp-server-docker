@@ -107,10 +107,10 @@ async function findCardsAndOrder(query: string): Promise<Card[]> {
 // Formats the uri to be a proper query
 function formatQuery(query: string): string {
   if (query.startsWith("deck")) {
-    return `deck:${query.slice(4)}`;
+    return `deck${query.slice(4)}`;
   }
   if (query.startsWith("is")) {
-    return `is:${query.slice(2)}`;
+    return `is${query.slice(2)}`;
   }
   return query;
 }
