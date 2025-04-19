@@ -1,6 +1,6 @@
 # Anki MCP Server
 
-An MCP server implementation that connects to a locally running Anki, providing card review and creation. The dockerfile wraps an MCPO server.
+An MCP server implementation that connects to a locally running Anki, providing card review and creation. The dockerfile wraps an [MCPO server](https://github.com/open-webui/mcpo).
 
 This server is designed to work with the [Anki desktop app](https://apps.ankiweb.net/) and the [Anki-Connect](https://foosoft.net/projects/anki-connect/) add-on.
 
@@ -72,6 +72,12 @@ On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
   }
 }
 ```
+
+## Docker
+```bash
+docker-compose up
+```
+The Swagger API documentation will be available at `http://localhost:8000/docs`.
 
 ### Debugging
 
