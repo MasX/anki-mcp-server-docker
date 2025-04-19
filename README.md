@@ -1,10 +1,10 @@
 # Anki MCP Server
 
-An MCP server implementation that connects to a locally running Anki, providing card review and creation.
+An MCP server implementation that connects to a locally running Anki, providing card review and creation. The dockerfile wraps an MCPO server.
 
 This server is designed to work with the [Anki desktop app](https://apps.ankiweb.net/) and the [Anki-Connect](https://foosoft.net/projects/anki-connect/) add-on.
 
-Make sure you have the add-on installed before using.
+Make sure you have the add-on installed before using. You can verify that it's running correctly by visiting http://localhost:8765. 
 
 ## Resources
 - **anki://search/deckcurrent**
